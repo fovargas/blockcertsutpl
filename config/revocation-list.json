@@ -3,8 +3,8 @@
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/blockcerts/v3"
     ],
-    "id": "",
+    "id": "https://raw.githubusercontent.com/fovargas/blockcertsutpl/main/config/revocation-list.json?token=GHSAT0AAAAAAB7C226Q24353JL2NGQ6DHJMY7VEKAA",
     "type": "RevocationList",
-    "issuer": "",
+    "issuer": "https://raw.githubusercontent.com/fovargas/blockcertsutpl/main/config/profile.json?token=GHSAT0AAAAAAB7C226R2R3ICLHBINDT4E5EY7VEIWQ",
     "revokedAssertions": []
   }

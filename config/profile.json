@@ -4,11 +4,11 @@
         "https://w3id.org/blockcerts/v3"
     ],
     "type": "Profile",
-    "id": "",
+    "id": "https://raw.githubusercontent.com/fovargas/blockcertsutpl/main/config/profile.json?token=GHSAT0AAAAAAB7C226R2R3ICLHBINDT4E5EY7VEIWQ",
     "name": "Universidad Técnica Particular de Loja",
     "url": "https://www.utpl.edu.ec",
     "introductionURL": "https://www.utpl.edu.ec",
-    "revocationList": "",
+    "revocationList": "https://raw.githubusercontent.com/fovargas/blockcertsutpl/main/config/revocation-list.json?token=GHSAT0AAAAAAB7C226Q24353JL2NGQ6DHJMY7VEKAA",
     "publicKey": [
       {
         "id": "",
