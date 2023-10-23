@@ -50,6 +50,7 @@
     "hasLevelOfMastery": {
       "@id": "http://example.org/ontology/hasLevelOfMastery",
       "@type": "@id"
-    }
+    },
+    "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
   }
 }
