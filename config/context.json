@@ -16,7 +16,8 @@
     "OpenBadge": "http://example.org/ontology/OpenBadge",
     "memberOf": {
       "@id": "http://example.org/ontology/memberOf",
-      "@type": "@id"
+      "@type": "@id",
+      "@container": "@nest"
     },
     "subOrganizationOf": {
       "@id": "http://example.org/ontology/subOrganizationOf",
