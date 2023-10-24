@@ -52,5 +52,15 @@
       "@type": "@id"
     },
     "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  "id": "https://digitalbazaar.com/",
+  "type": "Organization",
+  "memberOf": {
+    "id": "http://example.com/consortium",
+    "type": "Organization",
+    "subOrganizationOf": {
+      "id": "http://example.com/university",
+      "type": "Organization"
+    }
   }
 }
