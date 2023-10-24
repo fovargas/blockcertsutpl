@@ -16,8 +16,7 @@
     "OpenBadge": "http://example.org/ontology/OpenBadge",
     "memberOf": {
       "@id": "http://example.org/ontology/memberOf",
-      "@type": "@id",
-      "@container": "@nest"
+      "@type": "@id"
     },
     "subOrganizationOf": {
       "@id": "http://example.org/ontology/subOrganizationOf",
@@ -53,7 +52,7 @@
     },
     "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
   },
-  "id": "https://digitalbazaar.com/",
+  "id": "http://utpl.edu.ec",
   "type": "Organization",
   "memberOf": {
     "id": "http://example.com/consortium",
