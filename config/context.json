@@ -11,10 +11,7 @@
     "LearningPath": "http://example.org/ontology/LearningPath",
     "LearningOutcome": "http://example.org/ontology/LearningOutcome",
     "LevelOfMastery": "http://example.org/ontology/LevelOfMastery",
-    "Credential": {
-      "@id": "http://example.org/ontology/memberOf",
-      "@type": "@id"
-    },
+    "Credential": "http://example.org/ontology/Credential",
     "Microcredential": "http://example.org/ontology/Microcredential",
     "OpenBadge": "http://example.org/ontology/OpenBadge",
     "memberOf": {
