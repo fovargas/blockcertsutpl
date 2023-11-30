@@ -1,6 +1,10 @@
 {
   "@context": {
-    "Person": "http://example.org/ontology/Person",
+    "id": "@id",
+    "type": "@type",
+    "mccu": "https://github.com/fovargas/blockcertsutpl/edit/main/config/context.json"
+    "vivo": "http://vivoweb.org/ontology/core#",
+    "Person": "vivo:Person",
     "Issuer": "http://example.org/ontology/Issuer",
     "Student": "http://example.org/ontology/Student",
     "Organization": "http://example.org/ontology/Organization",
@@ -51,15 +55,5 @@
       "@type": "@id"
     },
     "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  },
-  "id": "http://utpl.edu.ec",
-  "type": "Organization",
-  "memberOf": {
-    "id": "http://example.com/consortium",
-    "type": "Organization",
-    "subOrganizationOf": {
-      "id": "http://example.com/university",
-      "type": "Organization"
-    }
   }
 }
