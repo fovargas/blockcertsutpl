@@ -1,59 +1,69 @@
 {
-  "@context": {
-    "id": "@id",
-    "type": "@type",
-    "mccu": "https://github.com/fovargas/blockcertsutpl/edit/main/config/context.json"
-    "vivo": "http://vivoweb.org/ontology/core#",
-    "Person": "vivo:Person",
-    "Issuer": "http://example.org/ontology/Issuer",
-    "Student": "http://example.org/ontology/Student",
-    "Organization": "http://example.org/ontology/Organization",
-    "University": "http://example.org/ontology/University",
-    "Consortium": "http://example.org/ontology/Consortium",
-    "OrganizationalUnit": "http://example.org/ontology/OrganizationalUnit",
-    "Course": "http://example.org/ontology/Course",
-    "LearningPath": "http://example.org/ontology/LearningPath",
-    "LearningOutcome": "http://example.org/ontology/LearningOutcome",
-    "LevelOfMastery": "http://example.org/ontology/LevelOfMastery",
-    "Credential": "http://example.org/ontology/Credential",
-    "Microcredential": "http://example.org/ontology/Microcredential",
-    "OpenBadge": "http://example.org/ontology/OpenBadge",
-    "memberOf": {
-      "@id": "http://example.org/ontology/memberOf",
-      "@type": "@id"
-    },
-    "subOrganizationOf": {
-      "@id": "http://example.org/ontology/subOrganizationOf",
-      "@type": "@id"
-    },
-    "holdsAccount": {
-      "@id": "http://example.org/ontology/holdsAccount",
-      "@type": "@id"
-    },
-    "hasCourseOffering": {
-      "@id": "http://example.org/ontology/hasCourseOffering",
-      "@type": "@id"
-    },
-    "hasCourseInstructor": {
-      "@id": "http://example.org/ontology/hasCourseInstructor",
-      "@type": "@id"
-    },
-    "hasPrerequisite": {
-      "@id": "http://example.org/ontology/hasPrerequisite",
-      "@type": "@id"
-    },
-    "isPartOf": {
-      "@id": "http://example.org/ontology/isPartOf",
-      "@type": "@id"
-    },
-    "hasLearningOutcome": {
-      "@id": "http://example.org/ontology/hasLearningOutcome",
-      "@type": "@id"
-    },
-    "hasLevelOfMastery": {
-      "@id": "http://example.org/ontology/hasLevelOfMastery",
-      "@type": "@id"
-    },
-    "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-  }
+	"@context": {
+		"@version": 1.1,
+		"@protected": true,
+		"id": "@id",
+		"type": "@type",
+		"MCCUCredential": {
+			"@id": "https://www.w3.org/2018/credentials#VerifiableCredential",
+			"@context": {
+				"@version": 1.1,
+				"@protected": true,
+				"id": "@id",
+				"type": "@type",
+				"mccu": "https://github.com/fovargas/blockcertsutpl/edit/main/config/context.json",
+				"vivo": "http://vivoweb.org/ontology/core#",
+				"Person": "vivo:Person",
+				"Issuer": "http://example.org/ontology/Issuer",
+				"Student": "http://example.org/ontology/Student",
+				"Organization": "http://example.org/ontology/Organization",
+				"University": "http://example.org/ontology/University",
+				"Consortium": "http://example.org/ontology/Consortium",
+				"OrganizationalUnit": "http://example.org/ontology/OrganizationalUnit",
+				"Course": "http://example.org/ontology/Course",
+				"LearningPath": "http://example.org/ontology/LearningPath",
+				"LearningOutcome": "http://example.org/ontology/LearningOutcome",
+				"LevelOfMastery": "http://example.org/ontology/LevelOfMastery",
+				"Credential": "http://example.org/ontology/Credential",
+				"Microcredential": "http://example.org/ontology/Microcredential",
+				"OpenBadge": "http://example.org/ontology/OpenBadge",
+				"memberOf": {
+					"@id": "http://example.org/ontology/memberOf",
+					"@type": "@id"
+				},
+				"subOrganizationOf": {
+					"@id": "http://example.org/ontology/subOrganizationOf",
+					"@type": "@id"
+				},
+				"holdsAccount": {
+					"@id": "http://example.org/ontology/holdsAccount",
+					"@type": "@id"
+				},
+				"hasCourseOffering": {
+					"@id": "http://example.org/ontology/hasCourseOffering",
+					"@type": "@id"
+				},
+				"hasCourseInstructor": {
+					"@id": "http://example.org/ontology/hasCourseInstructor",
+					"@type": "@id"
+				},
+				"hasPrerequisite": {
+					"@id": "http://example.org/ontology/hasPrerequisite",
+					"@type": "@id"
+				},
+				"isPartOf": {
+					"@id": "http://example.org/ontology/isPartOf",
+					"@type": "@id"
+				},
+				"hasLearningOutcome": {
+					"@id": "http://example.org/ontology/hasLearningOutcome",
+					"@type": "@id"
+				},
+				"hasLevelOfMastery": {
+					"@id": "http://example.org/ontology/hasLevelOfMastery",
+					"@type": "@id"
+				}
+			}
+		}
+	}
 }
