@@ -20,7 +20,7 @@
 		"Microcredential": "http://example.org/ontology/Microcredential",
 		"OpenBadge": "http://example.org/ontology/OpenBadge",
 		"credential": {
-			"@id": "http://example.org/ontology/memberOf",
+			"@id": "http://example.org/ontology/credential",
 			"@type": "@id"
 		},
 		"memberOf": {
