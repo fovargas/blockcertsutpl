@@ -8,6 +8,7 @@
 		"Person": "vivo:Person",
 		"Issuer": "http://example.org/ontology/Issuer",
 		"Student": "http://example.org/ontology/Student",
+		"Instructor": "http://example.org/ontology/Instructor",
 		"Organization": "http://example.org/ontology/Organization",
 		"University": "http://example.org/ontology/University",
 		"Consortium": "http://example.org/ontology/Consortium",
