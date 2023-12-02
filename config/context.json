@@ -12,7 +12,7 @@
 		"University": "http://example.org/ontology/University",
 		"Consortium": "http://example.org/ontology/Consortium",
 		"OrganizationalUnit": "http://example.org/ontology/OrganizationalUnit",
-		"Course": "http://example.org/ontology/Course",
+		"Course": "vivo:Course",
 		"LearningPath": "http://example.org/ontology/LearningPath",
 		"LearningOutcome": "http://example.org/ontology/LearningOutcome",
 		"LevelOfMastery": "http://example.org/ontology/LevelOfMastery",
