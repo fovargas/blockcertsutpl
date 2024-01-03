@@ -12,7 +12,7 @@
     "revocationList": "https://raw.githubusercontent.com/fovargas/blockcertsutpl/main/config/revocation-list.json",
     "publicKey": [
       {
-        "id": "mfxTL5kKdUHWpijtPPHSPghx34TZF8ufvr",
+        "id": "ecdsa-koblitz-pubkey:n1imWyPApXo1StroN2R7xwnKmSufPQDbi6",
         "created": "2017-06-29T14:48:03.814936+00:00"
       }
     ],
